@@ -1,13 +1,83 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: tomato;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.draggable {
+	border: solid thin white;
+}
+
+#left {
+	color: black;
+	height: 400px;
+	width: 200px;
+	background-color: tomato;
+}
+
+#right {
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	background-color: #555;
+	width: 800px;
+	height: 1100px;
+	margin: 32px;
+}
+
+.HeaderText {
+	text-align: center;
+}
+
+.right-boxes {
+	height: 200px;
+	width: 200px;
+	border: solid thin black;
+}
+
+.three {
+	background-color: #555;
+	border: 1px solid red;
+	width: 250px;
+	/* height: 200px; */
+	min-height: 50px;
+	margin: 5px;
+}
+
+.four {
+	background-color: #555;
+	border: 1px solid red;
+	width: 775px;
+	height: 250px;
+	margin: 5px;
+}
+.Header {
+	background-color: #555;
+	border: 1px solid red;
+	width: 775px;
+	min-height: 25px;
+	margin: 5px;
+}
+
+.five {
+	background-color: #555;
+	border: 1px solid red;
+	width: 382px;
+	/* height: 340px; */
+	min-height: 50px;
+	margin: 5px;
 }
